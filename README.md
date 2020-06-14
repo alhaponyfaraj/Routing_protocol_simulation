@@ -1,2 +1,4 @@
 # Routing_protocol_simulation
-This repo contains a simulation of an adaptive routing protocol 
+This project is a simulation of an adaptive routing protocol specifically Dijkstra algorithm
+
+
