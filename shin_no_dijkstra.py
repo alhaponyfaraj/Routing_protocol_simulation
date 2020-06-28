@@ -72,13 +72,13 @@ class Graph:
 def main():
     start = input("Type start node: ")
     end = input("Type end node: ")
-    start(
+    start_check(
         filename="shin_no_djikstra_graph.txt",
         start= str(start),
         end= str(end),
     )
 # path, distance
-def start(filename, start, end):
+def start_check(filename, start, end):
     # Connect the graph class with the network nodes file
     graph = Graph(filename)
     returned_path, returned_distance = graph.shortest_path(start, end)
