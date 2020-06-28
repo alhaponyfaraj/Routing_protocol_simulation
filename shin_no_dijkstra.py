@@ -124,7 +124,7 @@ if __name__ == "__main__":
         1: to produce the shortest between two desired nodes: \n
         2: To produce the routing table of shortest possible paths for one node: 
         \n
-        Enter on of the following options: """)
+        Enter one of the following options: """)
         if option == "1":
             print("\n##########################################################################\n")
             main()
