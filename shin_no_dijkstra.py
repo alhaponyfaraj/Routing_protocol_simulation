@@ -35,7 +35,7 @@ class Graph:
             node: (0 if node == start_node else INFINITY) for node in self.nodes
         }
 
-        print(distance_from_start)
+        
 
         previous_node = {node: None for node in self.nodes}
 
@@ -65,8 +65,7 @@ class Graph:
         path.appendleft(start_node)
 
         return path, distance_from_start[end_node]
-        print(path)
-        print(distance_from_start)
+        
 
 
 
@@ -95,7 +94,7 @@ def get_the_node_table():
         result.append(line.split(' ')[0])
     # Remove duplication
     resulted = list(dict.fromkeys(result))
-    print(resulted)
+    
     f.close()
     return resulted
 
